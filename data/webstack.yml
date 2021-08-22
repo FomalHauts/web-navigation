@@ -32,8 +32,8 @@
       description: Curl Syntax to Code
 
 
-- taxonomy: 工具
-  icon: fas fa-wrench
+- taxonomy: 开发工具
+  icon: fas fa-laptop-code 
   list: 
     - term: 格式化
       icon: fa-envelope-open
@@ -215,7 +215,7 @@
 
 
 - taxonomy: 实用工具
-  icon: fas fa-comments
+  icon: fas fa-tools
   links:
       - title: 和风天气
         logo: heweather.png
