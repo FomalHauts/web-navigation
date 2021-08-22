@@ -1,0 +1,31 @@
+baseURL = "https://nav.fomal-haut.com"
+languageCode = "zh-CN"
+title = "Fomal Haut 网址导航"
+theme = "webstack"
+preserveTaxonomyNames = true
+disablePathToLower = true
+hasCJKLanguage = true
+publishDir = "docs"
+
+
+[params]
+    author = "FomalHaut"
+    description = "Fomal Haut 网址导航"
+    siteurl = "./"
+    repository = "https://github.com/FomalHauts/web-navigation"
+    enableLoad = true
+    logosPath  = "assets/images/logos"
+
+[params.qweather]
+    key = "3296fbc89c4a45d9b0793be5b4d6314d"
+
+[params.images]
+    favicon           = "assets/images/favicon.png"
+    backgroundImage   = "assets/images/bg.jpg"
+    logoExpandLight   = "assets/images/light-bg.png"
+    logoExpandDark    = "assets/images/dark-bg.png"
+    logoCollapseLight = "assets/images/logo.png"
+    logoCollapseDark  = "assets/images/logo.png"
+
+[params.footer]
+    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：knight@fomal-haut.com &copy; 2021 - {year} By [FomalHaut导航](https://github.com/FomalHauts/web-navigation) | [赣ICP备520号](http://beian.miit.gov.cn/)'

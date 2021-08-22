@@ -1,0 +1,97 @@
+<div class="header-big  post-top css-color mb-4"
+    style="background-image: url({{ $.Site.Params.images.backgroundImage }})">
+    <div class="s-search">
+        <div id="search" class="s-search mx-auto">
+
+            <form action="https://nav.fomal-haut.com?s=" method="get" target="_blank" class="super-search-fm">
+                <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei=""
+                    placeholder="输入关键字搜索" style="outline:0" autocomplete="off">
+                <button class="submit" type="submit"><i class="iconfont icon-search"></i></button>
+            </form>
+
+            <div id="search-list" class="hide-type-list">
+                <div class="search-group group-a ">
+                    <div class="modal fade search-modal" id="search-modal">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+
+                                    <div id="search" class="s-search mx-auto my-4">
+                                        <div id="search-list" class="hide-type-list">
+                                            <div class="search-group group-a">
+                                                <ul class="search-type">
+                                                    <li><input checked="checked" hidden="" type="radio" name="type2"
+                                                            id="m_type-bing" value="https://cn.bing.com/search?q="
+                                                            data-placeholder="Search in Bing">
+                                                        <label for="m_type-bing"><span
+                                                                class="text-muted">bing</span></label></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card search-smart-tips" style="display: none">
+                                            <ul></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="position: absolute;bottom: -40px;width: 100%;text-align: center;">
+                                    <a href="javascript:" data-dismiss="modal"><i
+                                            class="iconfont icon-close-circle icon-2x" style="color: #fff;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="search-type">
+                        <li><input checked hidden type="radio" name="type" id="type-bing"
+                                value="https://cn.bing.com/search?q=" data-placeholder="Search in Bing"><label
+                                for="type-bing"><span style="color:#007daa">Bing</span></label></li>
+                        <li><input hidden type="radio" name="type" id="type-google"
+                                value="https://www.google.com/search?q=" data-placeholder="Search in Google"><label
+                                for="type-google"><span style="color:#3B83FA">G</span><span
+                                    style="color:#F3442C">o</span><span style="color:#FFC300">o</span><span
+                                    style="color:#4696F8">g</span><span style="color:#2CAB4E">l</span><span
+                                    style="color:#F54231">e</span></label></li>
+                        <li><input hidden type="radio" name="type" id="type-stackoverflow"
+                                value="https://stackoverflow.com/search?q="
+                                data-placeholder="Search in Stack OverFlow"><label for="type-stackoverflow"><span
+                                    style="color:#ff8608">StackOverFlow</span></label></li>
+                        <li><input hidden type="radio" name="type" id="type-github" value="https://github.com/search?q="
+                                data-placeholder="Search in Github"><label for="type-github"><span
+                                    style="color:#778899">Github</span></label></li>
+                        <li><input hidden type="radio" name="type" id="type-zhihu"
+                                value="https://www.zhihu.com/search?type=content&q="
+                                data-placeholder="Search in ZhiHu"><label for="type-zhihu"><span
+                                    style="color:#3B83FA">ZhiHu</span></label></li>
+                        <li><input hidden type="radio" name="type" id="type-bilibili"
+                                value="https://search.bilibili.com/all?keyword="
+                                data-placeholder="Search in Bilibili"><label for="type-bilibili"><span
+                                    style="color:#fb7299">Bilibili</span></label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card search-smart-tips search-hot-text">
+                <ul id="word" style="display: none"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="bulletin-big mx-3 mx-md-0">
+        <div id="bulletin_box" class="card my-2">
+            <div class="card-body py-1 px-2 px-md-3 d-flex flex-fill text-xs text-muted">
+                <div><i class="iconfont icon-bulletin" style="line-height:25px"></i></div>
+                <div class="bulletin mx-1 mx-md-2 carousel-vertical">
+                    <div class="carousel slide" data-ride="carousel" data-interval="3000">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active"><a class="overflowClip_1" href="#">🐳随🌊起 北落师门</a></div>
+                            <!-- <div class="carousel-item "><a class="overflowClip_1"
+                                    href="#">FomalHaut导航 - 有范的导航网站</a></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-fill"></div>
+                <a title="关闭" href="javascript:;" rel="external nofollow" class="bulletin-close"
+                    onclick="$('#bulletin_box').slideUp('slow');"><i class="iconfont icon-close"
+                        style="line-height:25px"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

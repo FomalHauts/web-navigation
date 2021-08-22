@@ -1,0 +1,229 @@
+---
+
+- taxonomy: 常用推荐
+  icon: fas fa-star
+  links: 
+    - title: 北落杂记
+      qrcode: fomal-stories-qrcode.png
+      logo: fomal-stories.png
+      description: 一眼见你,万物不及
+
+    - title: MyGithub
+      logo: Github.svg
+      url: https://github.com/FomalHauts/
+      description: GitHub
+
+    - title: CurlToCode
+      logo: app-ico.png
+      url: https://curl.trillworks.com/
+      description: Curl Syntax to Code
+
+    - title: 今日热榜
+      logo: Jinrirebang.svg
+      url: https://tophub.today
+      description: 聚合类网络热闻榜单
+
+- taxonomy: 爬虫
+  icon: fab fa-buffer
+  links: 
+    - title: CurlToCode
+      logo: app-ico.png
+      url: https://curl.trillworks.com/
+      description: Curl Syntax to Code
+
+
+- taxonomy: 工具
+  icon: fas fa-wrench
+  list: 
+    - term: 格式化
+      icon: fa-envelope-open
+      links:
+        - title: Code Highlight
+          logo: code-beautify.ico
+          url: https://highlightcode.com/
+          description: A free online tool for code highlighting
+
+        - title: Json格式化
+          logo: bejson.png
+          url: https://www.bejson.com/
+          description: Json格式化校验
+
+    - term: 网络
+      icon: fa-envelope-open
+      links:
+        - title: IP Query
+          logo: ip.svg
+          url: http://mip.chinaz.com/
+          description: IP查询及端口扫描
+
+- taxonomy: aiera
+  icon: fas fa-building
+  links:
+    - title: Gitlab
+      logo: gitlab.svg
+      url: http://gitlab.aiera.tech/
+      description: 
+
+    - title: Yapi
+      logo: yapi.png
+      url: http://yaapi.aiera.tech/project/11/interface/api
+      description: 
+
+    - title: TAPD
+      logo: tapd.ico
+      url: https://www.tapd.cn/34166030/prong/stories/stories_list
+      description: 
+
+    - title: CodeSign-设计图
+      logo: codesign.png
+      url: https://codesign.qq.com/workspace/project/O6ym7ZRobojAYED?folder=93474ca0-41a5-4b6a-a0d8-668f7738c2be
+      description: 
+
+    - title: CodeSign-原型
+      logo: aiera.png
+      url: https://codesign.qq.com/preview/prototype/XJMwy0bK7yZO6LB/qwKrMZeoM9k1mdP
+      description: 
+
+
+
+- taxonomy: 文件
+  icon: fas fa-file-alt
+  list: 
+    - term: 分享
+      icon: fa-share-square-o
+      links:
+        - title: 文叔叔
+          logo: Wenshushu.svg
+          url: https://www.wenshushu.cn/
+          description: 
+
+        - title: Transfer.sh
+          logo: Transfer.sh.svg
+          url: https://transfer.sh/
+          description: 可以使用命令行
+
+        - title: File.io
+          logo: File.io.svg
+          url: https://www.file.io/
+          description: 
+
+        - title: FileTransfer
+          logo: FileTransfer.svg
+          url: https://filetransfer.io/
+          description: 
+
+- taxonomy: 云服务
+  icon: fas fa-cloud
+  links:
+      - title: 腾讯云
+        logo: tencent_cloud.png
+        url: https://www.wenshushu.cn/
+        description: 
+
+      - title: 阿里云
+        logo: ali_cloud.png
+        url: https://transfer.sh/
+        description: 
+
+      - title: 阿里云盘
+        logo: ali_cloud_drive.png
+        url: https://www.file.io/
+        description:
+  
+      - title: 百度网盘
+        logo: Baidu-Drive.svg
+        url: http://pan.baidu.com/
+        description: 
+
+
+- taxonomy: 博客
+  icon: fas fa-blog
+  links:
+      - title: Java全栈@pdai
+        logo: pdai.gif
+        url: https://pdai.tech/
+        description: 
+
+      - title: 阮一峰网络日志
+        logo: blog.png
+        url: https://www.ruanyifeng.com/blog/
+        description: 
+
+      - title: zhangkai
+        logo: zhangkai_blog.png
+        url: https://www.cnblogs.com/Neeo/
+        description: 
+
+      - title: 酷壳
+        logo: coolshell_logo.png
+        url: https://coolshell.cn/
+        description:
+
+      - title: 崔庆才
+        logo: blog.png
+        url: https://cuiqingcai.com/
+        description: 
+
+      - title: Phodal
+        logo: blog.png
+        url: https://www.phodal.com/
+        description: 
+
+      - title: hasaik
+        logo: blog.png
+        url: https://blog.hasaik.com/
+        description: 
+
+
+- taxonomy: 论坛
+  icon: fas fa-comments
+  links:
+      - title: v2ex
+        logo: v2ex.ico
+        url: https://cn.v2ex.com/
+        description: 分享和探索
+
+      - title: v2ex酷工作
+        logo: v2ex.ico
+        url: https://v2ex.com/go/jobs
+        description: 
+
+- taxonomy: 素材资源
+  icon: far fa-folder-open fa-lg
+  list:
+    - term: 图标素材
+      links:
+        - title: iconfont
+          logo: Iconfont.svg
+          url: http://www.iconfont.cn/
+          description: 阿里巴巴矢量图标库
+        - title: flaticon
+          logo: flaticon.png
+          url: https://www.flaticon.com/
+          description: 超赞图标库
+    - term: 素材处理
+      links:
+        - title: removebg
+          logo: removebg.gif
+          url: http://www.iconsfeed.com/
+          description: 消除图片背景
+
+        - title: 颜色转换
+          logo: color.png
+          url: https://www.sioe.cn/yingyong/yanse-rgb-16/
+          description: 颜色与十六进制转换
+
+
+- taxonomy: 实用工具
+  icon: fas fa-comments
+  links:
+      - title: 和风天气
+        logo: heweather.png
+        url: https://widget.qweather.com/
+        description: 和风天气免费插件
+
+      - title: shields
+        logo: v2ex.ico
+        url: https://shields.io/
+        description: github常用图标制作
+
